@@ -1,2 +1,3 @@
 # dash-lodash-deno-typescript-sample
-demo deno typescript, testing bundling
+
+demo on deno/typescript duo, testing bundling and npm publish

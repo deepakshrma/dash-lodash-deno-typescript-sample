@@ -1,0 +1,34 @@
+{
+  "name": "dash-lodash",
+  "version": "1.0.0",
+  "description": "\"demo deno typescript, testing bundling\"",
+  "types": "lib/lodash.d.ts",
+  "main": "lib/lodash.js",
+  "files": [
+    "lib/lodash.js"
+  ],
+  "scripts": {
+    "test": "deno test && node test",
+    "bundle": "tsc",
+    "bundle:deno": "deno bundle src/lodash.ts lib/index.js -c tsconfig.json"
+  },
+  "keywords": [],
+  "author": "deepakshrma <deepak.m.shrma@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakshrma/dash-lodash-deno-typescript-sample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deepakshrma/dash-lodash-deno-typescript-sample/issues"
+  },
+  "homepage": "https://github.com/deepakshrma/dash-lodash-deno-typescript-sample#readme"
+}
